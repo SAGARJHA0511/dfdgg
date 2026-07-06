@@ -6,3 +6,15 @@
     font-size: large;
     color: brown;
 }
+
+.span1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+.span1 {
+    color: blue;
+}
+.bug {
+    color: brown;
+    font-size: larger;
+}
