@@ -29,5 +29,47 @@
         Address <input type="text"><br>
         <input type="submit"> <input type="reset">
     </form>
+
+    <br><br><hr>
+    <form action="/submit">
+        <input type="text" name="username" value="chiku">
+    </form><br><br><hr>
+
+    <form>
+        <label for="username">UserName :</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password">Password :</label>
+        <input type="password" id="password" name="password">
+        <input type="submit">
+    </form>
+
+    <br>
+    <form>
+  <label>
+    Choose your preferred party date (required, April 1st to 20th):
+    <input
+      type="date"
+      name="party"
+      min="2017-04-01"
+      max="2017-04-21"
+      required />
+    <span class="validity"></span>
+  </label>
+
+  <p>
+    <button>Submit</button>
+  </p>
+  <br><br>
+  <label for="Male">Male</label>
+  <input type="radio" id="Male" name="gender">
+  <br>
+  <label for="female">Female</label>
+  <input type="radio" id="female" name="gender">
+  <br>
+  <label for="other">Other</label>
+  <input type="radio" id="other" name="gender">
+</form>
 </body>
 </html>
