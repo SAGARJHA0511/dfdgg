@@ -1,1 +1,2 @@
-Testing merge command and test it.
+Testing merge command and test it. 
+This is shhowing into git hhub or not 
