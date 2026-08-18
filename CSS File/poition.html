@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .box{
+            background-color: chocolate;
+            margin: 15px;
+            height: 100px;
+            width: 100px;
+
+        }
+        #box1{
+            position: static;
+            /* top: 30px; */
+        }
+        #box2{
+            position: relative;
+            top: 10px;
+        }
+        #box3{
+            position: absolute;
+            top: 30px;
+        }
+        #box4{
+            position: fixed;
+        }
+        #sticky{
+            background-color: aqua;
+            height: 100px;
+            width: 100px;
+            margin: 130px;
+            position: sticky;
+        }
+        h1{
+            background-color: red;
+            height: 100px;
+            width: 100px;
+        }
+        p{
+            font-weight: bolder;
+            margin: 100px;
+            position: fixed;
+            z-index: 10;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">Box1</div>
+    <div id="box2" class="box">Box2</div>
+    <div id="box3" class="box">Box3</div>
+    <div id="box4" class="box">Box4 used for nav bar and etc</div>
+    <p>The End</p>
+    <div id="sticky">Box Sticky</div>
+    <h1>dummy scroll</h1>
+    <h1>dummy scroll</h1>
+    <h1>dummy scroll</h1>
+    
+    
+
+</body>
+</html>
