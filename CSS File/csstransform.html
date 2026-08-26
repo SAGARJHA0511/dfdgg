@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .box {
+            margin: 50px;
+            padding: 10px;
+            height: 70px;
+            width: 80px;
+            border: 2px solid;
+            border-radius: 5px;
+            position: relative;
+            top: 50px;
+            left: 170px;
+
+            transition: all 2s ease-in;
+          }
+          #box1:hover{
+            transform: rotate(45deg);
+          } 
+           #box2:hover{
+            transform: rotate(2700deg);
+          }
+          #box3:hover{
+            transform: rotatex(45deg);
+          }
+          #box4:hover{
+            transform: rotatey(65deg);
+
+          }
+
+         /* .box:hover{
+            transform: rotate(45deg);
+         } */
+    </style>
+</head>
+<body>
+    <div id="box1" class="box" style="background-color: chartreuse;">45 <sup>0</sup></div>
+
+    <div id="box2" class="box" style="background-color: rgb(245, 110, 14);">270 <sup>0</sup></div>
+
+    <div id="box3" class="box" style="background-color: rgb(255, 247, 0);">45x <sup>0</sup></div>
+    
+    <div id="box4" class="box" style="background-color: rgb(118, 97, 232);">45y <sup>0</sup></div>
+</body>
+</html>
